@@ -148,10 +148,6 @@ export const users: User[] = [
 
 ---
 
-## 🎨 Screenshots & Diagrams (Optional)
-_Add diagrams showing federation flow here for better understanding._
-
----
 
 ## 👨‍💻 Author
 Built as a **learning project** to showcase **GraphQL Federation** with Docker, PNPM, Turbo, Prisma, and Apollo.
