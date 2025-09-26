@@ -1,0 +1,17 @@
+{
+  "name": "project-management-federation",
+  "private": true,
+  "devDependencies": {
+    "@types/node-fetch": "3",
+    "turbo": "^1.10.12"
+  },
+  "scripts": {
+    "generate": "turbo run generate",
+    "start-all": "turbo run dev ",
+    "build": "turbo run build"
+  },
+  "packageManager": "pnpm@8.10.0",
+  "dependencies": {
+    "node-fetch": "3"
+  }
+}

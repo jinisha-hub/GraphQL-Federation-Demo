@@ -1,0 +1,19 @@
+# packages:
+#   - "packages/web/*"
+#   - "packages/server/services/*"
+#   - "packages/server/*"
+
+# never-hoist:
+#   - "@prisma/client"
+#   - "prisma"
+#   - "ts-node-dev"  # Add if ts-node-dev has issues with hoisting
+
+
+packages:
+  - 'packages/server/gateway'
+  - 'packages/server/services/users-service'
+  - 'packages/server/services/projects-service'
+  - 'packages/server/services/clients-service'
+  - 'packages/server/seed-data'
+  - 'packages/web/client'
+  

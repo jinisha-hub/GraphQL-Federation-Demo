@@ -1,0 +1,18 @@
+{
+    "name": "seed-data",
+    "version": "1.0.0",
+    "description": "Shared seed data for project management federation services",
+    "private": true,
+    "main": "sampleData.ts",
+    "types": "sampleData.ts",
+    "scripts": {
+      "lint": "eslint . --ext .ts",
+      "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "typescript": "^5.3.0",
+      "eslint": "^8.57.0"
+    }
+  }
+  
