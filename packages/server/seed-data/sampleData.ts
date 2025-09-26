@@ -2,14 +2,13 @@
 
 // Types
 export interface Client {
-  id: number;
   name: string;
   email: string;
   phone: string;
 }
 
 export interface Project {
-  id: number;
+
   clientId: number;
   name: string;
   description: string;
@@ -27,31 +26,31 @@ export interface User {
 // Clients
 export const clients: Client[] = [
   {
-    id: 1,
+
     name: "Steve Roytis",
     email: "steve@gmail.com",
     phone: "344-562-6787",
   },
   {
-    id: 2,
+
     name: "Tony Stark",
     email: "tony@starkindustries.com",
     phone: "123-456-7890",
   },
   {
-    id: 3,
+ 
     name: "Natasha Romanoff",
     email: "natasha@gmail.com",
     phone: "555-666-7777",
   },
   {
-    id: 4,
+  
     name: "Peter Parker",
     email: "peterparker@gmail.com",
     phone: "888-999-1111",
   },
   {
-    id: 5,
+  
     name: "Bruce Banner",
     email: "bruce@gmail.com",
     phone: "321-468-8887",
@@ -61,7 +60,7 @@ export const clients: Client[] = [
 // Projects
 export const projects: Project[] = [
   {
-    id: 1,
+  
     clientId: 1,
     name: "eCommerce Website",
     description:
@@ -69,7 +68,7 @@ export const projects: Project[] = [
     status: "In Progress",
   },
   {
-    id: 2,
+   
     clientId: 2,
     name: "Dating App",
     description:
@@ -77,7 +76,7 @@ export const projects: Project[] = [
     status: "Not Started",
   },
   {
-    id: 3,
+  
     clientId: 3,
     name: "Cybersecurity Dashboard",
     description:
@@ -85,7 +84,7 @@ export const projects: Project[] = [
     status: "Completed",
   },
   {
-    id: 4,
+  
     clientId: 4,
     name: "Portfolio Website",
     description:
@@ -93,7 +92,7 @@ export const projects: Project[] = [
     status: "In Progress",
   },
   {
-    id: 5,
+ 
     clientId: 5,
     name: "AI Research Platform",
     description:
